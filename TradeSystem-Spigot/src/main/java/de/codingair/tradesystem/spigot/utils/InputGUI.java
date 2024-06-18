@@ -12,7 +12,8 @@ public enum InputGUI {
         for (InputGUI value : values()) {
             if (value.name().toLowerCase().equals(s)) return value;
         }
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  System.out.println("Hello");
+        
         return SIGN;
     }
 }
